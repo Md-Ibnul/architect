@@ -88,7 +88,7 @@ font-size: 1rem;
 .banner-title{
     color: var(--primary-color);
     font-weight: 700;
-font-size: 64px;
+font-size: 4rem;
 margin-bottom: 1rem;
 }
 .banner-img img{
@@ -125,10 +125,11 @@ margin-bottom: 1rem;
 .services{
     display: flex;
     justify-content: space-around;
+    gap: 30px;
 }
 .service-item{
     text-align: center;
-    max-width: 300px;
+    max-width: 320px;
     width: 100%;
     background: #ffffff;
     padding: 50px 20px ;
@@ -288,4 +289,54 @@ label> a{
     color: var(--tertiary-color);
     font-weight: 400;
 font-size: 20px;
+}
+@media only screen and (max-width:576px){
+    .container, .navbar {
+        padding: 20px 0;
+    }
+    .navbar {
+        align-items: flex-start;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .nav-items> ul {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .feature {
+        padding: 0 20px;
+        flex-direction: column-reverse;
+    }
+    .services {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .service-item {
+        max-width: 100%;
+    }
+    .about {
+        flex-direction: column-reverse;
+    }
+    .about-btn {
+        padding: 10px 15px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+    .btn-font-big {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .facts-items {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .sponsor {
+        row-gap: 20px;
+    }
+    .footer {
+        padding-top: 0;
+        text-align: center;
+        flex-direction: column;
+    }
 }
