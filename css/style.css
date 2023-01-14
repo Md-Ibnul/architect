@@ -1,0 +1,224 @@
+/* google fonts link */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+:root{
+    --primary-color: #131313;
+    --secondary-color: #727272;
+    --tertiary-color: #424242;
+    --theme-color: #FF900E;
+}
+.primary-btn{
+    font-weight: 400;
+font-size: 1.2rem;
+color: #ffffff;
+    padding: 1.25rem 1.5rem;
+    background-color: var(--theme-color);
+    border: none;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+.section-description{
+    color: var(--secondary-color);
+    font-weight: 400;
+font-size: 1rem;
+line-height: 26px;
+}
+.section-title{
+    color: var(--primary-color);
+    font-weight: 700;
+font-size: 2.5rem;
+margin-bottom: 1.5rem;
+}
+.container, .navbar{
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 65px 0;
+}
+/* logo design */
+.logo{
+    color: var(--primary-color);
+    font-weight: 700;
+font-size: 2rem;
+}
+/* navbar part style */
+.full-cover{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+.nav-items> ul{
+    display: flex;
+    column-gap: 4.5rem;
+}
+.nav-items> ul> li> a{
+    color: var(--tertiary-color);
+    font-weight: 400;
+font-size: 1rem;
+}
+/* banner part style */
+.banner{
+    display: flex;
+    flex-direction: column;
+    padding: 45px 0;
+}
+.banner-items{
+    max-width: 53rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-title{
+    color: var(--primary-color);
+    font-weight: 700;
+font-size: 64px;
+margin-bottom: 1rem;
+}
+.banner-img img{
+    width: 100%;
+}
+/* feature part style */
+.feature{
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 4.5rem;
+}
+.feature-imgs{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.feature-img img{
+    width: 100%;
+}
+.feature-item{
+    flex: 1;
+    max-width: 537px;
+    margin-top: 40px;
+}
+.head-light{
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+.head-theme{
+    color: var(--theme-color);
+}
+/* about part style */
+.about{
+    display: flex;
+    column-gap: 146px;
+    align-items: center;
+}
+.about-details{
+    flex: 1;
+}
+.about-head{
+    border-left: 5px solid var(--theme-color);
+    padding-left: 20px;
+}
+.about-item{
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-left: 5px;
+}
+.about-item> h5{
+    color: var(--primary-color);
+    font-weight: 600;
+font-size: 1.25rem;
+margin-bottom: 5px;
+}
+.about-img{
+    position: relative;
+}
+.about-img img{
+    width: 100%;
+}
+.about-btn{
+    padding: 2.8rem 2.6rem;
+    margin: 0;
+    position: absolute;
+    bottom: -77px;
+    left: -92px;
+}
+.btn-font-big{
+    font-weight: 700;
+font-size: 65px;
+}
+/* facts part style */
+.fact-details{
+    max-width: 33.75rem;
+}
+.facts-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.facts-item{
+    padding: 45px 35px;
+    text-align: center;
+    border: 1px solid var(--theme-color);
+border-radius: 8px;
+margin-bottom: 50px;
+}
+.facts-number{
+    color: var(--tertiary-color);
+    font-weight: 600;
+font-size: 2rem;
+}
+.facts-name{
+    color: var(--secondary-color);
+    font-weight: 600;
+font-size: 1rem;
+}
+/* sponsor part style */
+.sponsor-head{
+    max-width: 542px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponsor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 65px;
+}
+.brand img{
+    width: 100%;
+    filter: grayscale(100%);
+}
+/* footer part style */
+.footer-container{
+    padding: 0;
+}
+.footer{
+    padding: 38px 0;
+    background-color: rgba(255, 144, 14, 0.1);
+    text-align: center;
+}
+.footer> p{
+    color: var(--tertiary-color);
+    font-weight: 400;
+font-size: 20px;
+}
