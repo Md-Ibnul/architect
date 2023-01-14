@@ -121,6 +121,38 @@ margin-bottom: 1rem;
 .head-theme{
     color: var(--theme-color);
 }
+/* services part style */
+.services{
+    display: flex;
+    justify-content: space-around;
+}
+.service-item{
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    background: #ffffff;
+    padding: 50px 20px ;
+    border-radius: 20px;
+    box-shadow: 0px 10px 50px 0px rgb(26 46 85 / 10%);
+    transform: translateY(0px);
+    transition: all 0.1s ease-in-out 0.1s;
+}
+.service-item:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out 0.1s;
+    box-shadow: 0px 20px 60px 0px rgb(26 46 85 / 20%);
+}
+.service-title{
+    color: var(--tertiary-color);
+    font-weight: 600;
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+.service-details{
+    color: var(--secondary-color);
+    font-weight: 600;
+font-size: 1rem;
+}
 /* about part style */
 .about{
     display: flex;
@@ -181,18 +213,11 @@ font-size: 65px;
 border-radius: 8px;
 margin-bottom: 50px;
 }
-.facts-number{
-    color: var(--tertiary-color);
-    font-weight: 600;
-font-size: 2rem;
-}
-.facts-name{
-    color: var(--secondary-color);
-    font-weight: 600;
-font-size: 1rem;
+.fact-no{
+    margin-bottom: 0px;
 }
 /* sponsor part style */
-.sponsor-head{
+.section-head{
     max-width: 542px;
     margin: 0 auto;
     text-align: center;
@@ -213,11 +238,53 @@ font-size: 1rem;
     padding: 0;
 }
 .footer{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    margin-top: 2rem;
+}
+.contact> div{
+    margin-bottom: 2rem;
+}
+.contact> div i{
+    color: var(--theme-color);
+    font-size: 1.5rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.contact> div span{
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.form input[type = text],[type = email]{
+    font-weight: 700;
+    color: var(--tertiary-color);
+    font-size: 1rem;
+    max-width: 300px;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-bottom: 2px solid var(--theme-color);
+    margin-bottom: 20px;
+}
+label> a{
+    text-decoration: underline;
+}
+.submit-btn{
+    margin: 0;
+    margin-top: 20px;
+    padding: 14px 60px;
+}
+.copyright{
     padding: 38px 0;
     background-color: rgba(255, 144, 14, 0.1);
     text-align: center;
 }
-.footer> p{
+.copyright> p{
     color: var(--tertiary-color);
     font-weight: 400;
 font-size: 20px;
