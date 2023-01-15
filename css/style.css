@@ -3,13 +3,13 @@
 /* fact bounce style */
 @keyframes slide {
   0% {
-    transform: translateY(80%);
+    transform: translateY(5%);
   }
   50% {
-    transform: translateY(-90px);
+    transform: translateY(-140px);
   }
   100% {
-    transform: translateY(80%);
+    transform: translateY(5%);
   }
 }
 /* body style */
@@ -223,7 +223,7 @@ body {
 .facts-items {
   display: flex;
   justify-content: space-around;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .facts-item {
   padding: 45px 35px;
@@ -253,6 +253,7 @@ body {
 }
 /* sponsor part style */
 .sponsor-container {
+  padding-top: 0;
   padding-bottom: 0;
 }
 .section-head {
@@ -376,7 +377,6 @@ label > a {
     margin-bottom: 20px;
   }
   .sponsor-container {
-    margin-top: 70px;
     padding: 30px;
     margin-bottom: 20px;
   }
