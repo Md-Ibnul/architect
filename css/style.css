@@ -252,6 +252,9 @@ body {
   margin-bottom: 0px;
 }
 /* sponsor part style */
+.sponsor-container{
+  padding-bottom: 0;
+}
 .section-head {
   max-width: 542px;
   margin: 0 auto;
@@ -262,7 +265,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 65px;
+  margin-bottom: 20px;
 }
 .brand img {
   width: 100%;
