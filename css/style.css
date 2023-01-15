@@ -1,5 +1,17 @@
 /* google fonts link */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+/* fact bounce style */
+@keyframes slide {
+    0%{
+        transform: translateY(80%);
+    }
+    50%{
+        transform: translateY(-90px);
+    }
+    100%{
+        transform: translateY(80%);
+    }
+}
 
 * {
   box-sizing: border-box;
@@ -213,6 +225,22 @@ font-size: 65px;
     border: 1px solid var(--theme-color);
 border-radius: 8px;
 margin-bottom: 50px;
+transition: animation .4s;
+}
+.slide-1{
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.slide-2{
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-delay: .4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .fact-no{
     margin-bottom: 0px;
@@ -298,10 +326,12 @@ font-size: 20px;
         align-items: flex-start;
         flex-direction: column;
         row-gap: 20px;
+        padding-left: 10px;
     }
     .nav-items> ul {
         flex-direction: column;
         row-gap: 10px;
+        padding-left: 10px;
     }
     .feature {
         padding: 0 20px;
@@ -317,6 +347,9 @@ font-size: 20px;
     .about {
         flex-direction: column-reverse;
     }
+    .about-head {
+        margin-top: 20px;
+    }
     .about-btn {
         padding: 10px 15px;
         position: absolute;
@@ -330,6 +363,9 @@ font-size: 20px;
     .facts-items {
         flex-direction: column;
         margin-bottom: 20px;
+    }
+    .sponsor-container{
+        margin-top: 50px;
     }
     .sponsor {
         row-gap: 20px;
