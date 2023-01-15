@@ -376,3 +376,51 @@ font-size: 20px;
         flex-direction: column;
     }
 }
+@media only screen and (min-width:577px) and (max-width:992px){
+    .container, .navbar {
+        padding: 20px 0;
+    }
+    .navbar {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .feature {
+        flex-direction: column-reverse;
+    }
+    .services {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .service-item {
+        max-width: 60%;
+    }
+    .about {
+        flex-direction: column-reverse;
+    }
+    .about-head {
+        margin-top: 20px;
+    }
+    .about-btn {
+        padding: 10px 15px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+    .btn-font-big {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .facts-items {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .sponsor-container{
+        margin-top: 50px;
+    }
+    .sponsor {
+        row-gap: 20px;
+    }
+    .footer {
+        padding-top: 0;
+    }
+}
