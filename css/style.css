@@ -214,8 +214,7 @@ body {
   font-size: 65px;
 }
 /* facts part style */
-.facts,
-.sponsor-container {
+.facts {
   padding: 0 20px;
 }
 .fact-details {
@@ -271,7 +270,7 @@ body {
 }
 /* footer part style */
 .footer-container {
-  padding: 0;
+  padding-bottom: 0;
 }
 .footer {
   padding: 30px 0;
@@ -374,7 +373,8 @@ label > a {
     margin-bottom: 20px;
   }
   .sponsor-container {
-    margin-top: 50px;
+    margin-top: 70px;
+    padding: 0px;
   }
   .sponsor {
     row-gap: 20px;
@@ -429,6 +429,7 @@ label > a {
   }
   .sponsor-container {
     margin-top: 50px;
+    padding: 0 20px;
   }
   .sponsor {
     row-gap: 20px;
